@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 200px;
+}
+
+.container::selection{
+  background-color: black;
+  color: white;
+}
+
+h2{
+  font-size: 3rem;
+}
+.p-container{
+  margin-top: 50px;
+  position: relative;
+  /* background-color: red; */
+}
+.eye-container{
+  position: absolute;
+  right: 40%;
+  top: 18px;
+  color: gray;
+}
+input{
+  outline: none;
+  border: 1px solid black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 400px;
+}
+
+button{
+  margin-left: 10px;
+  padding: 15px 30px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  /* background-color: ; */
+  cursor: pointer;
+}
+button:active{
+  background-color: #dbdada;
+  color: black;
+}
+
+.result-container{
+  margin-top: 50px;
+}
+.result{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
